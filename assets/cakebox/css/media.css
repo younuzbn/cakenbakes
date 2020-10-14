@@ -1,0 +1,1514 @@
+ /* 320px to 480px */
+@media(min-device-width : 320px) and (max-device-width : 480px){
+    .main-menu ul{
+        display: inline-block!important;
+    }
+    .search1{
+        padding-right: 0px;
+    }
+    .last-ser{padding: 5px;}
+    #authorization .btn{font-size: 20px!important;}
+    .navbar-toggle{
+        position: absolute;
+        top: -50px;
+        left: 0;
+        margin-right: 0;
+    }
+    ul.usp{
+        /*display: block;*/
+    }
+    ul.usp li{
+        /*padding: 10px 0;*/
+    }
+    .cak-pri{
+        margin-left: 30px;
+    }
+    .search1{
+        padding-right: 0px;
+    }
+
+    .img-foot {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .list-dis h4{
+        font-size: 17px;
+    }
+    .lis-par li p{
+        font-size: 18px;
+    }
+    .acc-lis p{
+        font-size: 16px;
+    }
+    .soc-lis {
+        margin-top:0px;
+        float: right;
+
+    }
+
+    /*.lin-nam4{
+        padding-left: 11%;
+    }*/
+    .abot-sec2 {
+        margin-top:0px;
+        padding: 5px 15px 0;
+    }
+    .abot-sec2 h2{
+        font-size: 20px;
+    }
+    .cak-tex h3{
+        font-size: 45px;
+    }
+    .cak-tex h4{
+        font-size: 19px;
+    }
+    .conti-lis {
+       margin-left: 11px;
+    }
+    .menu_list {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .dev-sec{
+        padding: 45px 10px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .dev-sec h4{font-size: 24px;}
+    .ban-con li p {
+        padding: 0px 0px;
+        padding-top: 0px;
+    }
+    .pri-name {
+        font-size: 12px;
+    }
+    .pri-name2 {
+        font-size: 12px;
+    }
+    .pri-name3 {
+        font-size: 12PX;
+
+    } 
+    .ban-sec {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .btn-in{
+        font-size: 12px;
+    }
+    .ban-con {
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+    .ban-con li p {
+        padding: 0px 0px;
+        margin-top: 2px;
+    }
+    .toolbar li{
+        padding: 0;
+    }
+    .capt3-nam h5, p{
+        padding-left: 0;
+    }
+    .img-foot {
+        padding: 0 15px;
+    }
+    .ban-name{
+        margin: 0;
+    }
+    .cat2-sec{
+        padding-left: 15px;
+    }
+    .hed1-lis1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .txt-info h3{
+        padding: 0;
+        font-size: 37px;
+    }
+    .txt-info p{
+        position: inherit;
+        padding: inherit;
+    }
+    .con-back{
+        max-height: inherit;
+    }
+    .ima1-info img{
+        margin: inherit;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .ima2-info{
+        position: inherit;
+    }
+    .txt1-info {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+    .menu-lis1{
+        height: inherit;
+    }
+    .smbtn{
+        padding: 10px;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+
+    #btn-search{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .ban-name {
+    margin:0px;
+    }
+    .sec-bor{
+    padding-top: 10px;
+    }
+    .cls {
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 1;
+        opacity: 0.2;
+        position: absolute;
+        right: 5px;
+        text-shadow: 0 1px 0 #fff;
+        top: 0px;
+    }
+    .cat-log {
+        position: absolute;
+        
+        top: 7px;
+    }
+    .frm-col {
+        width:18%;
+    }
+    .bn-in2{
+        margin-top: 10px
+    }
+    .inxs img{
+        display: none;
+    }
+    .stc-left ul{
+    	height: inherit;
+    }
+    #contactForm{
+    	padding-left: 0;
+    }
+    #contactForm img{
+    	/*width: 100%;*/
+    }
+    .brn-inf1 {
+        border-right: inherit;
+    }
+    .zoomContainer{
+        width: auto;
+    }
+    .cart-specific .table th,.cart-specific td{
+        font-size: 14px;
+    }
+    .cart-specific .table .input-group-btn .btn{
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    .cart-specific{
+        padding-top: 15px;
+    }
+    .captcha-controlRow img{
+        width: 100%;
+        height: auto;
+    }
+    .cat-blck span{/*display: none;*/}
+    .top-r1{
+        text-align: right;
+        width: 100%;
+    }
+    #authorization{
+        padding-top: 0;
+    }
+    .primaryMenuuu li a {
+        padding: 10px 18px !important;
+    }
+    .logo{
+    	/*border-bottom: 1px solid #dbdbdb;*/
+    	margin: 0 -15px;
+    }
+    .logo img{
+        margin: 0 auto;
+    }
+    .banner .carousel-caption img{display: none;}
+    .banner .carousel-caption h1{
+        font-size: 18px;
+        width: 100%;
+    }
+    .banner .carousel-caption .btn{
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .banner video{
+        transform: none;
+        margin-bottom: -1.6%;
+    }
+    .primaryMenuuu li.active:after{bottom: 20px;}
+    .capt2-nam p{min-height: inherit;}
+    .productside h1, .weddingcakeside h1{font-size: 20px;}
+    #productAddToCartForm .btn{
+        font-size: 12px;
+        padding: 10px 15px 9px;
+    }
+    .addr .table th, .addr .table td, .addr p{font-size: inherit;}
+    #productAddToCartForm .btn{
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+    .po-btn{
+        font-size: 13px;
+        padding: 8px;
+        margin-right: 15px;
+    }
+    .productfull .tabscont .tab-content{min-height: inherit;}
+    #authorization .btn,#authorization .btn:hover{
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .searchFormBlock{
+        width: 100%;
+        padding: 15px 0 5px;
+    }
+    .top-r1 li {
+        padding: 0 2px;
+    }
+    .t-itms{
+        display: none;
+    }
+    .cart-al li img{
+        padding-left: 0;
+        margin-left: -3px;
+    }
+    .total-c{display: none!important;}
+    #id2{display: none;}
+    #id1{
+        display: initial!important;
+        position: relative;
+    }
+    #searchForm{
+        width: 100%;
+    }
+    #searchForm .input-group,.twitter-typeahead{width: 100%;}
+    .main-bnr{height: 190px!important;}
+    .pf-blck{padding: 15px 0;}
+    .hed-nam{padding: 15px 0 5px;}
+    .cno{
+        padding: 0;
+        font-size: 14px;
+    }
+    .header-mini-cart .dropdown-menu{
+        width: 90%;
+        right: 5%;
+    }
+    .shopping-cart-item-text a{font-size: 15px;}
+    .ch-home li .btn{font-size: 14px;}
+    #inner-footer{padding-top: 0;}
+    .footer .bor-r{padding-bottom: 20px;}
+    .list-dis h4{margin-bottom: 8px;}
+    .sec-bor{padding-bottom: 10px;}
+    .menuUrl ol .active{font-size: 12px;}
+    .ctab1 .card_product_name img{display: none;}
+    .mapwrap{padding: 15px 0;}
+    .sidemppage h2{padding: 8px 0;}
+    .well{margin-bottom: 0;}
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .brn-inf1{border-right: none;}
+    .ua-menu li a{line-height: inherit;}
+    .modal, .modal.container, .modal.modal-overflow{right: inherit;}
+    .for-page #userForgotPassword .cap-text {
+	    width: 48%;
+	    margin: 0 2%;
+	}
+	.for-page #userForgotPassword img {width: 48%;}
+	.lm-title p{font-size: 21px;}
+	#userRegister .cap-text {
+	    width: 48%;
+	    margin: 0 2%;
+	}
+	#userRegister img,
+	#userForgotPassword img,
+	.for-modal #userForgotPassword .cap-text,
+	#userRegisterModal img,
+	#userRegisterModal .cap-text {
+	    width: 48%;
+	}
+	#weddingcakeenquiryForm .captcha-controlRow img,
+	#weddingcakeenquiryForm .btn{width: 100%;}
+	#weddingcakeenquiryForm .cap-text{
+		width: 100%;
+		margin: 0 0 10%;
+	}
+	.btn-grp{bottom: 8px;}
+    .off-reg{font-size: 10px;}
+    .store-addrs h3{font-size: 20px;}
+    .addressTitle{font-size: 20px;}
+    .contactAddressFirst{margin: 0 15px 0 0;}
+    .address, .address a{font-size: 14px;}
+    .contactAddressFirst #div1, .contactAddressFirst #div2, .contactAddressFirst #div3, .contactAddressFirst #div4{
+        float: left;
+    }
+    .contactAddressFirst ul{
+        font-size: 16px;
+    }
+    .cart-dd12{
+        width: 100%;
+        display: inline-flex;
+        padding: 0 25px;
+    }
+    
+    .our-stores .store-locations hgroup h5{
+        font-size: 16px
+    }
+    
+    .our-stores .store-info {
+        flex-direction: column;
+    }
+    
+    .our-stores .store-info ul{
+        margin: 0;
+    }
+    
+    .our-stores .store-info .get-d{
+        float: inherit;
+        overflow: hidden;
+    }
+    
+    
+}
+/* 320px to 480px */
+
+/* 481px to 680px */
+@media(min-device-width : 481px) and (max-device-width :680px){
+ 
+    .search1{
+    padding-right: 28%;
+    }
+    .last-ser{padding: 5px;}
+    .top-r1{float: inherit;width: 100%;text-align: right;}
+    #authorization .btn{font-size: 19px!important;}
+    .navbar-toggle {
+        position: absolute;
+        left: 0;
+        top: -50px;
+        margin-right: 0;
+    }
+    .primaryMenuuu li a {
+        padding: 10px 18px !important;
+    }
+    .cak-pri{
+    margin-left: 30px;
+    }
+    .img-foot  {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .list-dis h4{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .lis-par li p{
+    font-size: 20px;
+    }
+    .acc-lis p{
+    font-size: 18px;
+    }
+    .soc-lis {
+        margin-top: 0px;
+        float: right;
+
+    }
+    .lin-nam4{
+    padding-left: 11%;
+    }
+    .abot-sec2 {
+        margin-top: 10px;
+        padding: 5px 0 0;
+    }
+    .conti-lis {
+        margin-left: 11px;
+    }
+    .menu_list {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .dev-sec{
+    padding: 45px;
+    margin-left: -15px;
+    margin-right: -15px;
+    }
+    .ban-con {
+        padding-top: 5px;
+    }
+    .ban-con li p{
+        margin-top: 0;
+        padding: 0 15px;
+    }
+    .pri-name {
+        font-size: 16px;
+    }
+    .pri-name2 {
+        font-size: 14px;
+    }
+    .pri-name3 {
+    font-size: 12PX;
+
+    } 
+    .btn-in{
+        font-size: 16px;
+    }
+    .capt3-nam h5, p{
+        padding-left: 0;
+    }
+    .img-foot img {
+        margin: 0 auto;
+    }
+    .cat2-sec{
+        padding-left: 15px;
+    }
+    .hed1-lis1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .thu .btn{
+        display: block;
+    }
+    .txt-info h3{
+        padding: 0;
+    }
+    .txt-info p{
+        position: inherit;
+        padding: inherit;
+    }
+    .con-back{
+        max-height: inherit;
+    }
+    .ima1-info img{
+        margin: inherit;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .ima2-info{
+        position: inherit;
+    }
+    .txt1-info {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+    .menu-lis1{
+        height: inherit;
+    }
+    .ima2-info img{
+        width: 100%;
+    }
+    .smbtn{
+        padding: 10px;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+    .frm-col {
+    width:15%;
+}
+.bn-in2{
+    margin-top: 15px
+}
+.cls {
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 0.2;
+    position: absolute;
+    right: 5px;
+    text-shadow: 0 1px 0 #fff;
+    top: 0px;
+}
+.cat-log {
+    position: absolute;
+    top: 7px;
+    left: 148px;
+}
+.inxs img{
+    display: none;
+}
+.stc-left ul{
+    height: inherit;
+}
+#contactForm{
+    padding-left: 0;
+}
+#contactForm img{
+    /*width: 100%;*/
+}
+.brn-inf1 {
+    border-right: inherit;
+}
+.teaser-image img{
+        margin: 0 auto;
+    }
+    .thumbnail .caption{
+        text-align: center;
+    }
+
+    .logo img{
+        margin: 0 auto;
+    }
+    .last-row-sa{padding-top: 0;}
+    .primaryMenuuu li.active:after{bottom: 20px;}
+    .banner video{
+        transform: none;
+        margin-bottom: -1%;
+    }
+    .banner .carousel-caption{
+        padding-top: 4%;
+    }
+    .banner .carousel-caption img{
+        width: 26%;
+    }
+    .prc-img{
+        left: 10px;
+        top: 15px;
+    }
+    .capt2-nam p{min-height: inherit;}
+    .productfull .tabscont .tab-content{min-height: inherit;}
+    .weddingcake-top-image img{width: 100%;}
+    #authorization .btn,#authorization .btn:hover{
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .searchFormBlock{
+        width: 100%;
+        padding: 5px 0;
+    }
+    .top-r1 li {
+        padding: 0 2px;
+    }
+    .t-itms{
+        display: none;
+    }
+    .cart-al li img{
+        padding-left: 0;
+        margin-left: -3px;
+    }
+    .total-c{display: none!important;}
+    #id2{display: none;}
+    #id1{
+        display: initial!important;
+        position: relative;
+    }
+    .banner .carousel-caption h1{
+        width: 90%;
+        font-size: 24px;
+    }
+    #searchForm{
+        width: 100%;
+    }
+    .ban img{
+        height: 250px!important;
+    }
+    .banner .carousel-caption .btn{font-size: 18px;}
+    #searchForm .input-group,.twitter-typeahead{width: 100%;}
+    .main-bnr{/*height: 270px!important;*/}
+    .cno{
+        padding: 0;
+        font-size: 14px;
+    }
+    .header-mini-cart .dropdown-menu{
+        right: 20px;
+        width: 62%;
+    }
+    .ch-home li .btn{font-size: 14px;}
+    .pf-blck{padding: 5px 0;}
+    .hed-nam{padding: 20px 0 5px;}
+    .bac-sec{margin-bottom: 30px;}
+    .adv-block{padding-top: 0;}
+    .cak-sec{padding-bottom: 20px;}
+    .abot-sec2 p{padding-top: 3%;}
+    #inner-footer{padding-top: 0;}
+    .footer .bor-r{padding-bottom: 20px;}
+    .cak-pri{margin: 0;}
+    .sec-bor{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .productside h1, .weddingcakeside h1{font-size: 26px;}
+    .card_product_name .row{margin: 0;}
+    .ctab1 .card_product_name img{display: none;}
+    .po-btn {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+    .mapwrap{padding: 15px 0;}
+    .sidemppage h2{padding: 8px 0;}
+    .addr p{font-size: 14px;}
+    .well{margin-bottom: 0;}
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .brn-inf1{
+        border-right: none;
+        width: 50%;
+        float: left;
+    }
+    .ua-menu li a{line-height: inherit;}
+    .for-page #userForgotPassword .cap-text {
+	    width: 48%;
+	    margin: 0 2%;
+	}
+	.for-page #userForgotPassword img {width: 48%;}
+	.modal, .modal.container, .modal.modal-overflow{right: inherit;}
+    .off-reg{font-size: 16px;}
+    .get-d{
+        float: inherit;
+        padding-top: 15px!important;
+    }
+    .cart-specific{
+        padding-top: 15px;
+    }
+    .cart-specific .table td, .checkout-specific .table td{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cart-dd12{
+        width: 100%;
+        display: inline-flex;
+        padding: 0 25px;
+    }
+}
+/* 481px to 680px */
+
+/* 681px to 767px */
+@media(min-device-width : 681px) and (max-device-width :767px){
+    
+    .search1{
+        padding-right: 45%;
+    }
+    .ull span{
+        font-size: 20px;
+    }
+    .top-r1{float: inherit;width: 100%;text-align: right;}
+    .navbar-toggle {
+        position: absolute;
+        left: 0;
+        top: -50px;
+        margin-right: 0;
+    }
+    .primaryMenuuu li a {
+        padding: 10px 18px !important;
+    }
+    .logo{margin-bottom: 0;}
+    .list-dis h4{
+    font-size: 19px;
+    }
+    .lis-par li p{
+    font-size: 20px;
+    }
+    .acc-lis p{
+    font-size: 18px;
+    }
+    .soc-lis {
+        margin-top: 0px;
+        float: right;
+
+
+    }
+    .lin-nam4{
+    padding-left: 11%;
+    }
+    .abot-sec2 {
+        margin-top: 24px;
+    }
+    .conti-lis {
+      margin-left: 11px;
+    }
+    .menu_list {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .dev-sec{
+    padding: 45px;
+    margin-left: -19px;
+    }
+
+    .img-foot {
+        /*padding-left: 11%;*/
+    }
+    .capt3-nam h5, p{
+        padding-left: 0;
+    }
+    .ban-con li p {
+        margin-top: 0;
+        padding: 0 5px;
+    }
+    .pri-name{
+        font-size: 20px;
+    }
+    .ban-con {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .cat2-sec{
+        padding-left: 15px;
+    }
+    .hed1-lis1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .thu .btn{
+        display: block;
+    }
+    .txt-info h3{
+        padding: 0;
+    }
+    .txt-info p{
+        position: inherit;
+        padding: inherit;
+    }
+    .con-back{
+        max-height: inherit;
+    }
+    .ima1-info img{
+        margin: inherit;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .ima2-info{
+        position: inherit;
+    }
+    .txt1-info {
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+    .menu-lis1{
+        height: inherit;
+    }
+    .ima2-info img{
+        width: 100%;
+    }
+    .smbtn{
+        padding: inherit;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+    .frm-col {
+    width:15%;
+    }
+   .bn-in2{
+    margin-top: 15px
+     }
+   .cls {
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 0.2;
+    position: absolute;
+    right: 5px;
+    text-shadow: 0 1px 0 #fff;
+    top: 0px;
+    }
+  .cat-log {
+    position: absolute;
+    top: 7px;
+    left: 148px;
+    }
+    .teaser-image img{
+        margin: 0 auto;
+    }
+    .thumbnail .caption{
+        text-align: center;
+    }
+    .inxs img{
+    display: none;
+    }
+    .stc-left ul{
+        height: inherit;
+    }
+    #contactForm{
+        padding-left: 0;
+    }
+    .logo{
+        border-bottom: 1px solid #dbdbdb;
+        margin: 0 -15px 0;
+    }
+    .logo img{
+        margin: 0 auto;
+    }
+    .banner video{
+        transform: none;
+        margin-bottom: -1%;
+    }
+    .banner .carousel-caption{
+    	padding-top: 4%;
+    }
+    .banner .carousel-caption img{
+        width: 26%;
+    }
+    .cak-pri img{
+    }
+    .prc-img{left: 5%;}
+    .primaryMenuuu li.active:after{bottom: 20px;}
+    .capt2-nam p{min-height: inherit;}
+    .productfull .tabscont .tab-content{min-height: inherit;}
+    .weddingcake-top-image img{width: 100%;}
+    #id2{
+        display: none;
+        padding-bottom: 15px;
+    }
+    #searchForm{
+        width: 100%;
+    }
+    #searchForm .input-group,.twitter-typeahead{width: 100%;}
+    .searchFormBlock{
+        float: inherit;
+        width: 100%;
+    }
+    .t-itms,.total-c{display: none!important;}
+    .btn-log,.btn-log:hover{
+        background: none;
+        border: none;
+    }
+    #id1 {
+        display: initial!important;
+        position: relative;
+    }
+    .top-r1 li {
+        padding: 0 2px;
+    }
+    #authorization .btn, #authorization .btn:hover {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    .cart-al li img{
+        padding-left: 0;
+        margin-left: -3px;
+    }
+    .pf-blck{padding: 10px 0;}
+    .hed-nam{padding: 20px 0 5px;}
+    .adv-block{padding-top: 0;}
+    .bac-sec{margin-bottom: 30px;}
+    .cak-sec{padding-bottom: 10px;}
+    #inner-footer{padding-top: 15px;}
+    .list-dis h4{margin-bottom: 15px;}
+    .footer .bor-r{padding-bottom: 15px;}
+    .sec-bor{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .ctab1 .card_product_name img{display: none;}
+    .mapwrap{padding: 15px 0;}
+    .sidemppage h2{padding: 8px 0;}
+    .well{margin-bottom: 0;}
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .brn-inf1{
+        border-right: none;
+        width: 50%;
+        float: left;
+    }
+    .ua-menu li a{line-height: inherit;}
+    .modal, .modal.container, .modal.modal-overflow{right: inherit;}
+    .banner .carousel-caption h1{
+        font-size: 30px;
+    }
+    .ban img{height: 310px!important;}
+    .banner .carousel-caption .btn{font-size: 20px;}
+    .cart-specific{padding-top: 15px;}
+    .shopping-cart-content{min-width: 300px;}
+    .cart-dd12{
+        width: 100%;
+        display: inline-flex;
+        padding: 0 25px;
+    }
+}
+/* 681px to 767px */
+
+/* 768px to 899px */
+@media(min-device-width : 768px) and (max-device-width :899px){
+    .main-menu ul{
+        display: inline-block!important;
+    }
+    .menu_list{
+        padding-top: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    ul.usp{
+        /*display: block;    */
+    }
+    ul.usp li{
+        /*padding: 10px 0;*/
+    }
+    #weddingcakeenquiryForm .cap-text{padding: 5px;}
+    .non-update{
+        display: block!important;
+        width: 100%!important;
+    }
+    .cat-delight .thumbnail{
+        min-height: auto!important;
+    }
+    .cat-delight .prd a{
+        font-size: 18px;
+    }
+    .con-back{
+        margin-top: 0;
+    }
+    .con-back{
+        max-height: unset;
+    }
+    .last-ser{padding: 5px;}
+    .btn-log, .btn-rig{font-size: 14px;}
+    .primaryMenuuu li a{padding: 4px 10px !important;}
+    .soc-lis{
+        margin-top: 0;
+    }
+    .menu_list {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .carousel-caption{
+        top: 5px;
+        bottom: 0!important;
+    }
+    .car-cap{
+        padding-top: 0;
+    }
+    .cak-tex h3{
+        font-size: 65px;
+    }
+    .bac-sec,.dev-sec{
+        min-height: 330px;
+    }
+    .dev-sec{
+        padding: 40px 10px;
+    }
+    .dev-sec h4{font-size: 18px;}
+    .dev-sec h5{font-size: 16px;}
+    .sec-row{
+        padding: 0 5%;
+    }
+    .img-foot{
+        padding-left: 0;
+    }
+    .img-foot img{
+        margin: 0 auto;
+    }
+    .ban-con {
+        text-align: center;
+    }
+    .ban-con li p{
+        padding: 0 10px;
+    }
+    .pri-name{
+        font-size: 30px;
+    }
+    .capt2-nam p{
+        min-height: 120px;
+    }
+    .thu .btn{
+        display: block;
+    }
+    .txt-info h3{
+        padding-top: 45px;
+        font-size: 33px;
+        padding-left: 0;
+    }
+    .txt-info p{
+        padding-left: 0;
+        /*right: 15px;*/
+        top: 20px;
+    }
+    .txt-info1 p{
+        padding-left: 0;
+        top: 125px;
+    }
+    .ima1-info img{
+        margin-left: 25px;
+    }
+    .ima2-info{
+        left: 0;
+    }
+    .menu-lis1{
+        height: 760px;
+    }
+    .smbtn{
+        padding: inherit;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+    .brn-inf1 ul{
+        margin-left: 0;
+    }
+.frm-col {
+    width:15%;
+    }
+   .bn-in2{
+    margin-top: 15px
+     }
+   .cls {
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 0.2;
+    position: absolute;
+    right: 5px;
+    text-shadow: 0 1px 0 #fff;
+    top: 0px;
+    }
+  .cat-log {
+    position: absolute;
+    top: 7px;
+    left: 148px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .mar-o {
+        margin-top: 5px;
+    }
+    .menu li a{
+        font-size: 14px;
+    }
+    .menu{
+        margin-bottom: 0;
+    }
+    .bac-sec, .dev-sec{
+        min-height: 357px;
+    }
+    .abot-sec2{
+        padding: 0;
+    }
+    .abot-sec2 p{
+        padding-top: 2%;
+    }
+    .margin-l{
+        padding-left: 0;
+    }
+    .lis-par li p, .lis-par li p a{
+        font-size: 20px;
+    }
+    .thu{
+        padding: 0;
+    }
+    .hvr-grow .btn{
+        padding: 6px 0;
+    }
+    .logo img{padding: 20px 0;}
+    .list-dis h4{font-size: 20px;}
+    .lis-par1 p{
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .social-list li{padding-right: 5px;}
+    .lis-par li p, .lis-par li p a{font-size: 16px;}
+    .banner video{
+        transform: none;
+        margin-bottom: -0.8%;
+    }
+    .banner .carousel-caption{padding-top: 4%;}
+    .banner .carousel-caption img{
+        width: 26%;
+    }
+    .weddingcake-top-image img{width: 100%;}
+    .stc-left ul{height: 834px;}
+    .ima-info{
+        margin-top: 30px!important;
+    }
+    .ima2-info{top: 48px;}
+    .stc-left ul{height: 940px;}
+    .cat-blck ul .active a{
+        font-size: 13px;
+    }
+    .cat-blck ul a span, .cat-blck ul a{font-size: 14px;}
+    .btn-log, .btn-rig{padding: 7px 16px;}
+    .categorytext {
+        padding-top: 7%;
+    }
+    .productside h1, .weddingcakeside h1{font-size: 24px;}
+    #productAddToCartForm .btn{
+        /*font-size: 13px;
+        padding: 10px 20px 9px;*/
+    }
+    .table-responsive{
+        overflow-y: scroll;
+    }
+    .cart-specific .table th{font-size: 18px;}
+    .cart-specific ul li span,.checkout-specific ul li span{font-size: 14px;}
+    .cart-specific button span,.checkout-specific ul li span{display: none;}
+    .card_product_model {font-size: 14px!important;}
+    .well{margin-bottom: 5px;}
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .stc-left ul a{font-size: 14px;}
+    .txt-info p{font-size: 17px;}
+    .top-r1 li{padding: 0 8px;}
+    .modal, .modal.container, .modal.modal-overflow{right: inherit;}
+    .get-d{
+        float: inherit;
+        padding-top: 15px!important;
+    }
+    .breadcrumb{margin-bottom: 10px;}
+    .menuBreadcrumbBlock{padding-top: 0;}
+    .caption p .rd {
+        font-size: 14px !important;
+    }
+    .brn-info1 li{
+        font-size: 16px;
+    }
+    .brn-inf1{min-height: 120px;}
+    .con-hdr{
+        text-align: center;
+        padding-left: 0;
+    }
+    .ch-home li .btn{margin-bottom: 15px;}
+    .ua-menu li a{
+        line-height: inherit;
+        font-size: 14px;
+    }
+    .cart-specific .table .di-title{font-size: 14px;}
+    
+}
+/* 768px to 899px */
+
+/* 900px to 991px */
+@media(min-device-width : 900px) and (max-device-width :991px){
+
+    .menu_list{
+        padding-top: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    #weddingcakeenquiryForm .cap-text{padding: 5px;}
+    .non-update{
+        display: block!important;
+        width: 100%!important;
+    }
+    .primaryMenuuu li a{padding: 4px 10px !important;}
+    .last-ser{padding: 5px;}
+    .btn-log, .btn-rig{font-size: 14px;}
+    .soc-lis{
+        margin-top: 0;
+    }
+    .menu_list {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .carousel-caption{
+        top: 5px;
+        bottom: 0!important;
+    }
+    .car-cap{
+        padding-top: 25px;
+    }
+    .cak-tex h3{
+        font-size: 65px;
+    }
+    .bac-sec,.dev-sec{
+        min-height: 325px;
+    }
+    .dev-sec{
+        padding: 40px 10px;
+    }
+    .dev-sec h5{font-size: 16px;}
+    .dev-sec h4{font-size: 18px;}
+    .sec-row{
+        padding: 0;
+    }
+    .img-foot{
+        padding-left: 0;
+    }
+    .img-foot img{
+        margin: 0 auto;
+    }
+    .ban-con{
+        text-align: center;
+    }
+    .ban-con li p{
+        padding: 0 15px;
+    }
+    .pri-name{
+        font-size: 20px;
+    }
+    .capt2-nam p{
+        min-height: 120px;
+    }
+    .thu .btn{
+        display: block;
+    }
+    .txt-info h3{
+        padding-top: 45px;
+        font-size: 33px;
+    }
+    .txt-info p{
+        padding-left: 0;
+        right: -60px;
+    }
+    .ima1-info img{
+        margin-left: 25px;
+    }
+    .ima2-info{
+        left: 0;
+    }
+    .menu-lis1{
+        height: 760px;
+    }
+    .smbtn{
+        padding: inherit;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+    .brn-inf1 ul{
+        margin-left: 0;
+    }
+     .frm-col {
+    width:15%;
+    }
+   .bn-in2{
+    margin-top: 15px
+     }
+   .cls {
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 0.2;
+    position: absolute;
+    right: 5px;
+    text-shadow: 0 1px 0 #fff;
+    top: 0px;
+    }
+  .cat-log {
+    position: absolute;
+    top: 7px;
+    left: 148px;
+    }
+    .logo img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .mar-o {
+        margin-top: 5px;
+    }
+    .menu li a{
+        font-size: 14px;
+    }
+    .menu{
+        margin-bottom: 0;
+    }
+    .bac-sec, .dev-sec {
+        min-height: 357px;
+    }
+    .abot-sec2{
+        padding: 0;
+    }
+    .abot-sec2 p{
+        padding-top: 2%;
+    }
+    .thu{
+        padding: 0;
+    }
+    .hvr-grow .btn{
+        padding: 6px 0;
+    }
+    .banner video{
+        transform: none;
+        margin-bottom: -0.8%;
+    }
+    .list-dis h4{font-size: 22px;}
+    .lis-par1 p{
+        padding-left: 0;
+        font-size: 17px;
+    }
+    .lis-par li p, .lis-par li p a{font-size: 17px;}
+    .weddingcake-top-image img{width: 100%;}
+    .stc-left ul{height: 920px;}
+    .cat-blck ul .active a{font-size: 13px;}
+    .cat-blck ul a span, .cat-blck ul a{font-size: 14px;}
+    .banner .carousel-caption{padding-top: 4%;}
+    .banner .carousel-caption img{
+        width: 26%;
+    }
+    .btn-log, .btn-rig{padding: 7px 16px;}
+    .social-list li{padding-right: 5px;}
+    .categorytext {
+        padding-top: 7%;
+    }
+    .productside h1, .weddingcakeside h1{font-size: 24px;}
+    #productAddToCartForm .btn{
+        font-size: 13px;
+        padding: 10px 20px 9px;
+    }
+    .cart-specific button span,.checkout-specific ul li span{display: none;}
+    .card_product_model {font-size: 14px!important;}
+    .cart-specific .table th{font-size: 18px;}
+    .cart-specific ul li span{font-size: 14px;}
+    .well{margin-bottom: 5px;}
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .stc-left ul a{font-size: 14px;}
+    .txt-info p{font-size: 17px;}
+    .ima2-info{top: 48px;}
+    .top-r1 li{padding: 0 8px;}
+    .modal, .modal.container, .modal.modal-overflow{right: inherit;}
+    .get-d{
+        float: inherit;
+        padding-top: 15px!important;
+    }
+    .breadcrumb{margin-bottom: 15px;}
+    .menuBreadcrumbBlock{padding-top: 0;}
+    .caption p .rd {
+        font-size: 14px !important;
+    }
+    .brn-info1 li{
+        font-size: 16px;
+    }
+    .brn-inf1{min-height: 120px;}
+    .con-hdr{
+        text-align: center;
+        padding-left: 0;
+    }
+    .ch-home li .btn{margin-bottom: 15px;}
+    .ua-menu li a{
+        line-height: inherit;
+        font-size: 14px;
+    }
+    .cart-specific .table .di-title{font-size: 14px;}
+}
+/* 900px to 991px */
+
+/* 992px to 1199px */
+@media(min-device-width : 992px) and (max-device-width :1199px){
+
+    .soc-lis{
+        margin-top: 0;
+        padding: 0 36px;
+    }
+    .menu_list {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 10px;
+        padding-top: 35px;
+    }
+    .car-cap{
+        padding-top: 4%;
+    }
+    .ban-con li p{
+        padding: 0 30px;
+    }
+    .ban-con{
+        text-align: center;    
+    }
+    .capt2-nam p{
+        min-height: 150px;
+    }
+    .txt-info h3{
+        padding-top: 45px;
+        font-size: 34px;
+    }
+    .txt-info p{
+        padding-left: 45px;
+        right: -180px;
+    }
+    
+    .menu-lis1{
+        height: 760px;
+    }
+    .smbtn{
+        padding: inherit;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        padding: 4px 14px!important;
+    }
+    .abot-sec2 p{
+        padding-top: 4%;
+    }
+    .thu{
+        padding: 0;
+    }
+    .hvr-grow .btn{
+        padding: 6px 0;
+    }
+    .banner video{
+        transform: none;
+        margin-bottom: -0.8%;
+    }
+    .banner .carousel-caption{padding-top: 4%;}
+    .banner .carousel-caption img{width: 26%;}
+    #productAddToCartForm .btn{
+        font-size: 13px;
+        padding: 10px 18px 9px;
+    }
+    .ima2-info{
+        top: 55px;
+    }
+    .productside h1, .weddingcakeside h1{font-size: 24px;}
+    .cart-specific button span{display: none;}
+    .card_product_model {font-size: 14px!important;}
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .modal.container{width: 40%;}
+    .store-l span.ti-location-pin{padding-right: 2px;}
+    .top-r1 li{padding: 0 10px;}
+    .store-l,.btn-log, .btn-rig{font-size: 14px;}
+    .btn-log{padding: 0;}
+    .total-c sub{font-size: 16px;}
+    .cart-al li img{padding-left: 0;}
+    .store-l span.hidden-xs{display: none!important;}
+    .banner .carousel-caption h1{font-size: 40px;}
+    .contactAddressFirst ul{font-size: 17px;}
+    .menuBreadcrumbBlock {padding-top: 0;}
+    #contactForm{padding-left: 15px;}
+    .con-hdr{
+        padding: 0;
+        text-align: left;
+    }
+    .ch-home li .btn{margin-bottom: 15px;}
+    .dev-sec h4{font-size: 24px;}
+    .cak-tex p{font-size: 17px;}
+    .abot-sec2 h2{font-size: 27px;}
+    .cart-specific .table .di-title{font-size: 14px;}
+}
+/* 992px to 1199px */
+
+/* 1200px to 1289px */
+@media(min-device-width : 1200px) and (max-device-width :1289px){
+
+    .car-cap {
+        padding-top: 76px;
+    }
+    .capt2-nam p{
+        min-height: 150px;
+    }
+    .smbtn{
+        padding: inherit;
+    }
+    .form-horizontal{
+        padding-left: 0;
+    }
+    .banner video{
+        transform: none;
+        margin-bottom: -0.5%;
+    }
+    .weddingcakeSortby .well{padding: 3px 0px 10px;}
+    .modal.container{width: 35%;}
+    .btn-log, .btn-rig{padding: 0;}
+    .menuBreadcrumbBlock {padding-top: 0;}
+    .top-r1 li{
+        padding: 0 12px;
+    }
+}
+/* 1200px to 1289px */

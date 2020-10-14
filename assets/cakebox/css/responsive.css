@@ -1,0 +1,1624 @@
+/* Large Desktops */
+@media (min-width: 1500px) and (max-width: 3500px) {
+    
+    .container{
+        max-width: 1300px
+    }
+    .main-banner{
+        height: 90vh;
+        min-height: inherit
+    }
+    
+    .inner-main-banner{
+        height: auto
+    }
+    .inner-main-banner .main-banner-content{
+        padding-bottom: 0
+    }
+    
+}
+
+/* Laptop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+    .main-banner .main-banner-content h1{
+        /*font-size: 40px;*/
+        font-size: 38px;
+    }
+    
+    .main-banner .main-banner-content p.sub-heading{
+        font-size: 18px;
+    }
+
+
+    .call-back-content {
+        padding-left: 30px;
+        padding-right: 60px;
+    }
+    .wrapper-box {
+        padding: 0 40px;
+    }
+    .coll-back-form {
+        padding: 120px 60px;
+    }
+    .slider-content.slider-two h2 {
+        font-size: 95px;
+    }
+    
+
+
+}
+
+
+/* LG :992px. */
+@media (max-width: 1200px) {
+    
+/*
+    .marquee{
+        top: 160px!important;
+    }
+*/
+    
+    section.section{
+        padding: 50px 0
+    }
+    
+    .section-title h2{
+        font-size: 24px
+    }
+    
+    .img-text-block .img-block-left img,
+    .img-text-block .img-block-right img{
+        width: 300px
+    }
+    
+
+    .alert-corana{
+        font-size: 11px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    header .main-menu-area .top-right-icons .icon{
+        margin: 0 15px 0 15px 
+    }
+    
+    header .main-menu li a{
+        font-size: 13px;
+        letter-spacing: 1;
+    }
+    
+    header .head-search{
+        width: 200px
+    }
+    
+    .main-banner{
+        background-size: 400px;
+        height: auto;
+        min-height: auto;
+    }
+    
+    .main-banner .home-banner-bg::before{
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        top: 100px
+    }
+    
+    .main-banner .main-banner-content{
+        padding: 180px 0
+    }
+    
+    .main-banner .main-banner-content h1{
+        font-size: 40px;
+    }
+    .main-banner .main-banner-content p.sub-heading{
+        font-size: 18px;
+        line-height: 1.4
+    }
+    
+    .main-banner .main-banner-content .btn{
+        font-size: 16px;
+        padding: 15px 20px
+    }
+    
+    .slider-1 .silde-content-overlay .silde-content-inner{
+        width: 80%;
+        text-align: center
+    }
+    
+    .slider-1 .silde-content h1{
+        font-size: 30px;
+        font-weight: 400
+    }
+    
+    .slider-1 .owl-carousel .owl-nav,
+    .slider-1 .slider-controls{
+        display: none;
+    }
+    
+    .slider-1 .owl-carousel .owl-nav{
+        top:160px
+    }
+    
+    .slider-1 .slider-controls{
+        top: 120px
+    }
+    
+    .slider-1 .owl-carousel  .owl-dots{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 20px
+    }
+    
+    .accessory-products{
+        grid-template-columns:1fr 1fr 1fr
+    }
+    
+    .service .card-bg{
+        background-size: 100%
+    }
+    
+    .service .nav-tab nav a{
+        font-size: 18px;
+    }
+    
+    .commercial-tab .btn-light{
+        font-size: 16px!important;
+    }
+    
+    .service .service-list a{
+        font-size: 14px;
+        padding: 10px 15px
+    }
+    
+    .free-quote-card h3{
+        font-size: 28px
+    }
+    
+    .what-we-do .content-hero .tagline{
+        font-size: 20px;
+        margin-bottom: 30px
+    }
+    
+    .what-we-do p.lead{
+        font-size: 16px
+    }
+    
+    .home-projects .card-columns .mtb-2{
+        margin: 40px 0 0 0
+    }
+    
+    .highlights .card{
+        margin-bottom: 20px;
+    }
+    
+    .testimonials .owl-nav [class*=owl-]::before{
+        font-size: 40px
+    }
+    
+    .testimonials .owl-nav{
+        right: -60%
+    }
+    
+    .app-features figure.app-demo-screen img{
+        width: 300px
+    }
+    
+
+    
+    .get-quote-card{
+        position: relative;
+    }
+    
+    .case-studies-carousel .image{
+        height: 360px;
+    }
+    
+    .case-studies-carousel .silde-content h1{
+        font-size: 30px
+    }
+    
+    
+    .testimonials .single-testimonial p{
+        font-size: 18px
+    }
+    
+    .services {
+        margin-bottom: 40px;
+    }
+    
+    
+    .service-item:not(:last-child){
+        margin-bottom:20px
+    }
+    
+    .service-item:last-child p{
+        margin-bottom: 0;
+    }
+    
+    .services .service-item p{
+        font-size: 13px;
+        line-height: 20px
+    }
+    
+    .job-card{
+        flex-direction: column;
+    }
+    
+    .contact-us .our-stores .store-locations ul.list-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .contact-us .our-stores .store-locations .list-group-flush .list-group-item:first-child,
+    .contact-us .our-stores .store-locations .list-group-horizontal-lg .list-group-item+.list-group-item{
+        border-top-width: 0
+    }
+    
+    .contact-us .our-stores .store-locations .list-group-flush:last-child .list-group-item:last-child{
+        border-bottom-width: 1px
+    }
+    .contact-number, 
+    .email-address{
+        font-size: 16px;
+    }
+    
+    .contact-info .basic-form{
+        padding-left: 30px
+    }
+    
+    .claims .claim-policy{
+        width: auto;
+        padding: 40px 0
+    }
+    
+    .faqs .tab-nav .btn-group .btn{
+        font-size: 13px;
+    }
+    
+    .quick-contact .card-member figure{
+        margin-right: 20px
+    }
+    
+    footer .footer-head .cols{
+        flex-direction: column
+    }
+    
+    footer .footer-head .cols .info-col{
+        margin: 0
+    }
+    
+    footer .footer-head .cols .info-col nav ul{
+        justify-content: space-between
+    }
+    
+    footer .footer-head .cols .info-col nav li{
+        font-size: 13px;
+        margin-right: 5px;
+    }
+    
+    footer .social-icons a{
+        margin: 20px 20px 0 0 
+    }
+
+
+
+}
+
+
+/* MD :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .skip-btn{
+        position: unset;
+    }
+
+    .marquee{
+        top: 165px!important;
+    }
+
+    
+    header .main-menu-area .logo img,
+    header.sticky .logo a{
+        width: 180px;
+    }
+    
+    header .header-top-right,
+    header .main-menu-area .main-menu{
+        display: none;
+        /*float: left!important;
+        padding: 10px 0;*/
+    }
+    header .header-top-right a{
+        /*padding: 15px 0 0 0!important;*/
+        /*margin: 8px 0 0 0;*/
+    }
+    /*ul.side-menu-list{*/
+    /*    height: auto!important;*/
+    /*}*/
+    header .header-top-right #authorization a.my-acc{
+        margin: 5px 0 0 0;
+    }
+    header .header-top-right #authorization{
+        line-height: 50px;
+    }
+    header .global-search,
+    header .menu-icon,
+    header .header-right{
+        display: block!important
+    }
+    
+
+    /*.marquee{*/
+    /*    top:140px!important*/
+    /*}*/
+
+    .fav-products-cat{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .all-product-list .product-row{
+        padding: 10px;
+    }
+    .sortby .well{
+        height: 80px;        
+    }
+    .sortby .well .btn-group{
+        bottom: 0!important;
+        left: 0!important;
+    }
+    .sortby .well .form-group{
+        margin-top: 0!important;
+    }
+    .sortby .well .txt1{
+        padding-left: 0!important;
+    }
+    .cart-accp a{
+        font-size: 20px;
+    }
+    .main-menu ul li {
+        margin-right: 19px;
+        margin: 0;
+        padding: 5px 0;
+    }
+    .main-menu ul li a {
+        font-size: 12px;
+    }
+    .menu-area {
+        margin-bottom: -72px;
+    }
+
+    .main-menu .home-two li:last-child {
+        margin: 0;
+    }
+    
+    .productFeatured .pro-delight .thumbnail{
+        height: 280px;
+    }
+    
+    .slider-content.slider-two h2 {
+        font-size: 50px;
+    }
+    .slider-content.slider-two p {
+        font-size: 14px;
+    }
+    .section-title p {
+        padding: 0;
+    }
+    .main-menu-area.home-two-area {
+        padding-top: 20px;
+    }
+    
+    .main-banner .main-banner-content{
+        width: 85vw
+    }
+    
+    .main-banner .home-banner-bg::before{
+        width: 250px;
+        height: 250px;
+        top: 160px;
+        right: -20px
+    }
+    
+    .weddingcakeSortby .well .btn-group{
+        bottom: 0!important;
+    }
+        
+    .about-us-brief .section-head{
+        margin: 0 0 20px 0
+    }
+    
+    .highlights .card-deck{
+        flex-direction: column
+    }
+    
+    .app-features .img-text-block{
+        flex-direction: column
+    }
+    
+    
+    .product-key-points{
+        width: auto;
+        height: auto;
+        background: rgba(0, 128, 208, 0.8);
+        border-radius: 10px;
+        margin: 60px 0 0 0;
+        padding: 0
+    }
+    
+    .product-key-points .product-key-points-content{
+        padding: 60px 40px 20px 40px
+    }
+    
+    .single-features-box {
+        padding: 50px 30px;
+    }
+    
+    .case-studies.slider-1 .silde-content-overlay .silde-content-start{
+        justify-content: center
+    }
+    
+    .home-projects .card-columns{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    
+    .home-projects .card-columns .card-image{
+        width: 100%;
+        height: 360px
+    }
+    
+    .home-projects .card-columns .mtb{
+        margin: 10px 0 50px 0
+    }
+    
+    
+    .service .card{
+        min-height: 600px
+    }
+    
+    
+    .service .card .card-body{
+        padding: 30px 50px
+    }
+    
+    .service .nav-tab{
+        margin-bottom: 25px
+    }
+    
+    .call-back-md {
+        margin-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 90px;
+    }
+    
+    .testimonials{
+        padding-right: 0;
+    }
+    
+    .testimonials .card{
+        background-size: 200px;
+        background-position: right bottom
+    }
+    
+    .testimonials .owl-nav, .testimonials .owl-dots{
+        position: relative;
+        top: 10px;
+        right: inherit;
+        left: inherit;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .testimonials .owl-dots{
+        flex-direction: row
+    }
+
+    .client-logos{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .faqs .tab-nav .btn-group{
+        border: none;
+        margin-bottom: 40px;
+        width: 100%;
+        display: block
+    }
+    
+    .faqs .tab-nav .btn-group .btn{
+        display: block;
+        font-size: 13px;
+        margin-bottom: 5px
+    }
+    
+    .menuUrl ol{
+        padding: 8px 0;
+    }
+
+    .productfull h1{
+        font-size: 24px!important;
+    }
+
+
+    .faqs .tab-nav .btn-group>.btn-group:not(:first-child)>.btn, 
+    .faqs .tab-nav .btn-group>.btn:not(:first-child),
+    .faqs .tab-nav .btn-group>.btn-group:not(:last-child)>.btn, 
+    .faqs .tab-nav .btn-group>.btn:not(:last-child):not(.dropdown-toggle){
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius:  80px;
+    }
+    
+    .btn-group-vertical>.btn, .btn-group>.btn
+
+    
+    footer .footer-head{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    footer .footer-head .reach-us{
+        display: block;
+    }
+    
+    footer .footer-head .reach-us .info-col{
+        margin: 0 0 40px 0
+    }
+    
+    footer .footer-head .info-col a{
+        margin: 0 20px 0 0 
+    }
+    
+    .footer-menu .fb-last{
+        margin-left: 15px;
+    }
+    footer .footer-bottom ul.abt-comp{
+        padding: 10px 0;
+    }
+    footer .social-icons ul li{
+        padding: 0;
+    }
+    footer .footer-bottom ul.abt-comp li{
+        padding: 0 5px;
+    }
+    footer .footer-end .footer-end-inner .design-link{
+        text-align: left;
+        padding: 10px 15px;
+    }
+    .carousel-caption{
+        top: unset!important;
+    }
+    .pfd .product-description .btn-group{
+        grid-template-columns: auto auto;
+    }
+    .pfd .product-description .btn-group label.btn{
+        padding: 10px;
+    }
+    /*.cart_boxstyle{
+        display: block;
+    }*/
+    /*.cart-tbl{
+        display: block;
+    }*/
+    
+
+    
+
+}
+@media (width: 320px){
+    .search-box{
+        right: 26%!important;
+        width: 220px!important;
+    }
+    .marquee{
+        top: 170px!important;
+    }
+}
+@media (max-width: 414px) and (min-width: 411px){
+    .search-box{        
+        right: 20%!important;
+    }
+    .marquee{
+        top: 155px!important;
+    }
+}
+
+/* XS  :320px. */
+@media (max-width: 767px) {
+    .skip-btn{
+        position: unset;
+    }
+    .marquee{
+        top: 155px;
+    }
+    .marquee img{
+        height: 60px;
+    }
+    
+    p.offer-strip{
+        font-size: 12px;
+    }
+    /*.cart_boxstyle{
+        display: block;
+        margin: 10px 0;        
+    }*/
+    /*.order_tbl,.collection_tbl,.checkout-specific h2.collecion_head,.checkout-specific h2.order_head{
+        display: none;
+    }  */  
+    /*.cart-tbl{
+        display: none;
+    }*/
+    .weddingcakeSortby .well,.sortby .well{
+        padding: 10px 4px 10px!important;
+        background-color: transparent!important;
+    }
+    .weddingcakeSortby .well .btn-group,.sortby .well .btn-group{
+        bottom: 0!important;
+        left: 0!important;
+        margin: 10px 0;
+    }
+    .weddingcakeside h1{
+        font-size: 24px!important;
+    }
+    .sortby .well .form-group{
+        float: left!important;
+        margin-top: 0!important;
+    }
+    .sortby .well .txt1, .sortby .well .txt2{
+        padding-left: 0!important;
+    }
+    .lin-nam4{
+    	width: 100%;
+    	padding: 10px 0 5px 0;
+    }
+    .cart-accp a{
+        font-size: 12px!important;
+    }
+    .navbar{
+        padding: 0!important;
+    }
+    .fav-products-cat{
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    .all-product-list .product-row{
+        padding: 10px;
+    }
+    .product-page .categories-nav-list{
+        justify-content: unset;
+    }
+    
+    .accessory-products{
+        grid-template-columns:1fr
+    }
+    
+    .wedding-cakes-list{
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    .menuUrl ol{
+        padding: 5px 5px;
+        margin: 0;
+    }
+    .txt-info1 p{
+        padding-left: 0;
+        padding-top: 0;
+        right: 0;
+        text-align: unset;        
+        position: unset;
+    }
+    .categorytext p{
+        padding: 15px 5px 0 5px;
+    }
+    .offcanvas-menu{
+        width: 100%
+    }
+    .offcanvas-menu.active .menu-close{
+        top: 50px;
+    }
+    .search-box{
+        top: 40px;
+        right: 23%;
+        /*left: 2%;*/
+        width: 257px;
+    }
+    .top-right-icons .form-control{
+    width: 235px!important;
+    }
+    header.header-fixed{
+        padding: 15px
+    }
+    
+    header .main-menu nav,
+    header .header-top-right{
+        display: none;
+    }
+    
+    header .header-top-right,
+    header .main-menu-area .main-menu{
+        display: none;
+    }
+
+    header .global-search,
+    header .menu-icon,
+    header .header-right{
+        display: block!important
+    }
+    
+    header .main-menu-area .main-menu nav{
+        margin-right: 0;
+        display: none
+    }
+    
+    header .main-menu-area{
+        padding: 0 20px!important;
+    }
+    
+
+    
+    header .main-menu-area .logo img,
+    header.sticky .logo a{
+        width: 120px;
+    }
+    
+        
+    header .main-menu-area .top-right-icons .icon{
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        font-size: 14px
+    }
+    
+    header .main-menu-area .top-right-icons .icon:last-child{
+        margin-right: 0;
+    }
+    
+    header .btn-apply{
+        padding: 7px 12px
+    }
+    
+    .usp,
+    .categories-nav-list{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        justify-content: unset;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .product-page .pfd{
+        margin: 40px 0;
+        padding: 0;
+    }
+    
+    .product-page .pfd .product-gallery{
+        text-align: center
+    }
+    .product-page .pfd .product-gallery img{
+        width: inherit;
+        height: 300px
+    }
+    
+    .product-page .pfd .product-selection{
+        margin: 30px 0 0 0
+    }
+    
+    
+    .pfd .pt-price-info h4{
+        font-size: 18px
+    }
+    .pfd .product-description .btn-group label.btn p{
+        font-size: 13px;
+    }
+    
+    footer .footer-end .footer-end-inner .copyright p{
+        text-align: left!important;
+        margin: 0!important;
+    }
+    .productFeatured{
+        display: unset!important;
+    }
+    main{
+        padding-top: 0;
+    }
+    
+    section.section{
+        padding: 40px 0
+    }
+    
+    .section-title h2 {
+        font-size: 20px;
+    }
+    
+    .page-title-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .page-title h2 {
+        font-size: 20px;
+    }
+    
+    .page-body{
+        padding: 0;
+    }
+    
+    .page-hero{
+        padding:  0;
+        margin-bottom: 0
+    }
+    
+    .page-hero-content figure{
+        margin-top: 40px
+    }
+    
+    .page-hero-content figure img{
+        width: 100%
+    }
+    
+    
+    .page-hero .page-hero-content .lead{
+        font-size: 16px
+    }
+    
+    
+    
+    .main-banner .main-banner-content, 
+    .inner-banner-content.page .page-banner-content,
+    .page .page-banner-content{
+        padding: 100px 0 20px 0
+    }
+    
+    .main-banner .home-banner-bg{
+        width: 90vw
+    }
+    
+    .main-banner .home-banner-bg::before{
+        width: 200px;
+        height: 200px
+    }
+    
+    
+    .main-banner,
+    .inner-banner.banner-content{
+        background-position: 0 0;
+        background-size: auto;
+        height: auto;
+        min-height: 80vh;
+    }
+    
+
+    
+    .main-banner .main-banner-content h1{
+        font-size: 30px;
+        padding: 0;
+    }
+    
+    .inner-main-banner .main-banner-content{
+        flex-direction: column
+    }
+    
+    .inner-main-banner .banner-img{
+        order: 1
+    }
+    
+    .inner-main-banner .main-banner-text{
+        order: 2;
+        width: 100%
+    }
+    
+    .inner-banner.banner-content{
+        min-height: 60vh;
+    }
+    
+    .inner-main-banner .main-banner-content .brand-icon-mask{
+        width: 100%;
+        height: 300px;
+        margin-left: 0;
+    }
+    
+    .inner-banner,
+    .inner-banner .banner-content{
+        height: 200px;
+        min-height: 200px
+    }
+    
+    .inner-banner h1{
+        font-size: 30px
+    }
+    
+    .inner-banner .page-banner-text{
+        font-size: 30px;
+    }
+    
+    
+    
+    .slider-1 .image .img-sm,
+    .slider-1 .silde-content h1,
+    .highlights .card-deck,
+    .product-list .product-title,
+    .client-logos,
+    .case-studies .image .img-sm,
+    ul.our-process li:last-child::after,
+    ul.list-features,
+    footer .footer-head,
+    footer .footer-head .reach-us,
+    footer .footer-head .cols,
+    footer .footer-head .cols .info-col nav ul,
+    footer .footer-menu,
+    footer .footer-menu .fb-middle{
+        display: block
+    }
+    
+    
+    .product-banner-grid{
+        display: block;
+    }
+    
+    .fav-products{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    
+
+    
+    .product-banner-grid .freshly-label img{
+        width: 100%;
+        height: 100px
+    }
+    
+    .product-banner-grid .grid{
+        min-height: inherit;
+        height: 100px;
+        margin: 10px 0
+    }
+    
+    .product-banner-grid .grid a{
+        font-size: 16px;
+        letter-spacing: 2px
+    }
+    
+    .product .product-thumb{
+        padding: 0;
+        text-align: center
+    }
+    
+    .product .product-thumb img{
+        width: 100%;
+        height: auto
+    }
+    
+    .fav-products .product .product-text-container{
+        flex-direction: column
+        align-items: flex-start;
+    }
+    
+    .about-us-brief .section-head{
+        display: none
+    }
+
+    
+    .section-overlap{
+        margin: 0
+    }
+    
+
+    .service .card .card-body{
+        padding: 30px
+    }
+    
+    .service .service-list{
+        grid-template-columns:1fr
+    }
+    
+
+    
+    .free-quote-card .action-block-container{
+        margin: 0;
+        padding: 0 0 180px 0
+    }
+    
+    .product-key-points{
+        width: auto;
+        height: auto;
+        background: none;
+        margin: 60px 0 0 0
+    }
+    
+    .product-key-points .product-key-points-content{
+        padding: 0
+    }
+    
+    .product-key-points-content .slide-item{
+        min-height: 80px
+    }
+    
+    .product-key-points-content .slide-item p{
+        font-size: 16px;
+    }
+    
+    .easysteps figcaption{
+        margin-bottom: 40px
+    }
+    
+    .packages-slider .tab-nav .btn-group{
+        border: none
+    }
+    
+    .packages-slider .tab-nav .btn-group .btn{
+        word-break: break-all
+    }
+    
+    .page-hero.gallery-hero{
+        padding: 40px 0 0 0
+    }
+    
+    
+    
+    
+    .slider-1 .silde-content-overlay .silde-content-inner{
+        width: 100%;
+    }
+    
+    .slider-1 .silde-content-overlay .silde-content{
+        align-content: flex-start
+    }
+    
+/*
+    .slider-1 .image .img-lg{
+        display: none;
+    }
+*/
+    .productfull .tabscont .tab-content{
+        min-height: auto!important;
+    }
+    .weddingcakeSortby .well .btn-group{
+        bottom: 0!important;
+        left: 0!important;
+    }
+    .weddingcakeSortby .well .form-group{
+        margin-top: 10px!important;
+        float: left;
+    }
+    
+
+
+    
+    .slider-1 .silde-content h1{
+        font-size: 26px;
+    }
+    
+    .slider-1 .owl-carousel .owl-nav{
+        display: none;
+    }
+    
+    .slider-1 .owl-carousel .owl-nav .owl-prev, 
+    .slider-1 .owl-carousel .owl-nav .owl-next{
+        background-color: transparent;
+    }
+    
+
+    
+    .slider-1 .slider-controls{
+        display: none;
+        top: inherit;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        /* margin: auto; */
+        z-index: 1;
+        width: 100px;
+        margin: auto;
+    }
+    
+    .home-main-slider .silde-content-overlay .silde-content-inner{
+        width: 80%;
+    }
+    
+    .product-page .categories-nav-list{
+        top: 0;
+        padding: 5px
+    }
+    
+    .product-page .categories-nav-list a{
+        font-size: 13px
+    }
+    
+    .home-projects .card-columns{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    
+    .home-projects .card-columns .col4{
+        width: auto;
+    }
+    
+    .home-projects .card-columns .mtb{
+        margin: 0;
+    }
+    
+    .home-projects .card-columns .mtb-2{
+        margin: 0 0 60px 0;
+    }
+    
+    .home-projects .card-columns .card{
+        margin-bottom: 15px
+    }
+    
+    .home-projects .card .card-img-overlay{
+        padding:30px 50px;
+    }
+    
+    .home-projects .card:hover .card-img-overlay p{
+        display: none;
+    }
+    
+
+    .all-product-list .product-row > .product-text{
+        margin-bottom: 20px
+    }
+    
+    .all-product-list .product-row .product-text-container{
+        flex-direction: column;
+    }
+    
+    .all-product-list .product-row .product-text-container span{
+        width: 100%;
+        line-height: 1.2;
+        margin: 5px 0;
+        display: block;
+    }
+    
+    .all-product-list .product .product-price{
+        display: flex;
+        align-items: center
+    }
+    
+    .all-product-list .product .product-price i{
+        margin-right: 10px
+    }
+    
+    .what-we-do .content-hero .tagline{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .what-we-do p.lead{
+        display: none;
+    }
+    
+    .promotion p{
+        font-size: 14px
+    }
+    
+    .get-quote-card .get-quote-content{
+        padding: 15px 0
+    }
+    
+
+    figure.app-demo-screen img{
+        width: 100%
+    }
+
+    
+    .case-studies .image{
+        height: auto;
+    }
+    
+    .case-studies .image .img-lg{
+        display: none;
+    }
+
+    
+    .case-studies .silde-content-overlay{
+        width: auto;
+        left: 30px;
+        right: 30px;
+    }
+    
+    .case-studies .silde-content h4, 
+    .case-studies .silde-content h1{
+        font-size: 18px;
+        margin: 10px 0 20px 0;
+    }
+    
+    .case-studies .silde-content h4{
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .case-studies .silde-content .link-text i{
+        margin-left: 20px
+    }
+    
+    .case-studies-slider .slider-controls{
+        left: 30px;
+    }
+    
+    .case-studies-slider .owl-nav{
+        left: 100px;
+    }
+    
+    .testimonials .card{
+        background-image: none
+    }
+    
+        
+    .testimonials .owl-nav, .testimonials .owl-dots{
+        position: relative;
+        top: 10px;
+        right: inherit;
+        left: inherit;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .testimonials .owl-dots{
+        flex-direction: row
+    }
+    
+    .about-card .card-img{
+        display: none
+    }
+    
+    
+    .contact-us .our-stores .store-locations ul.list-group {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .faqs .tab-nav .btn-group{
+        border: none;
+        margin-bottom: 40px;
+        width: 100%
+    }
+    
+    .faqs .tab-nav .btn-group .btn{
+        font-size: 13px;
+        margin-bottom: 5px
+    }
+    
+    .faqs .tab-nav .btn-group>.btn-group:not(:first-child)>.btn, 
+    .faqs .tab-nav .btn-group>.btn:not(:first-child),
+    .faqs .tab-nav .btn-group>.btn-group:not(:last-child)>.btn, 
+    .faqs .tab-nav .btn-group>.btn:not(:last-child):not(.dropdown-toggle){
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius:  80px;
+    }
+    
+    
+    
+    
+    .projects{
+        padding: 60px 0;
+    }
+    
+    .projects .section-title{
+        margin-bottom: 30px;
+    }
+    
+    ul.our-process{
+        flex-direction: column
+    }
+    
+    ul.our-process li{
+        display: flex;
+    }
+    
+    ul.our-process li::before{
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 20px;
+    }
+    
+    ul.our-process li::after{
+        top: 20px;
+        left: 30px;
+    }
+    
+    ul.our-process li h4{
+        margin: 10px 0 0 70px;
+    }
+    
+
+    .app-features .app-features-content{
+        margin: 0 
+    }
+    
+    .app-features .app-features-content ul li {
+        font-size: 13px
+    }
+    
+    .free-quote-card  a.btn{
+        white-space: nowrap;
+        margin-bottom: 15px
+    }
+    
+    .project-photos{
+        margin: 0 0 40px 0
+    }
+
+    
+    .testimonials{
+        padding-left: 0;
+        padding-right: 0;
+        background-position: top center;
+        background-size: 60px;
+    }
+    
+    .testimonials .single-testimonial{
+        text-align: center
+    }
+    
+    .testimonials .single-testimonial p{
+        font-size: 16px;
+        margin-bottom: 20px
+    }
+    
+
+    
+    
+    .jobs .job-list {
+        margin: 30px 0 0 0;
+        padding: 30px 0 0 0;
+    }
+    
+    .jobs .job-list .section-title {
+        margin-bottom: 20px;
+    }
+    
+    
+    .job-card{
+        flex-direction: column
+    }
+    
+    .job-card .job-brief .job-title{
+        font-size: 18px;
+    }
+    
+    .job-card .job-disc{
+        margin-right: 0;
+        text-align: left;
+    }
+    
+    .job-card .card-action a{
+        margin: 20px 0  0 0
+    }
+    
+    
+    
+    .all-projects .project-list{
+        grid-template-columns: 1fr;
+    }
+    .pfd .product-description .btn-group{
+        grid-template-columns: auto;
+    }
+    .ima2-info img{
+        width: 100%;   
+    }
+    .all-projects .project-list .project-new img{
+        width: auto;
+        max-width: 100%;
+    }
+    
+    .contact-info, .contact-form{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .location-info .icon-box .icon{
+        margin-right: 20px
+    }
+    
+    .location-info .btn-icon .icon{
+        margin-right: 0
+    }
+    
+    .contact-number, .email-address{
+        font-size: 16px
+    }
+    
+    .contact-info .basic-form{
+        margin: 0 0 0 0;
+        padding:40px 0 0 0;
+        border-top: solid 1px rgba(0,0,0,0.10);
+        border-left: none
+    }
+    
+    
+    ul.list-features{
+        margin:40px 0 0;
+    }
+
+    .product-tech .achievement{
+        margin-left: 0;
+    }
+    
+    .product-head ul.list-dot{
+        margin-left: 0;
+    }
+    
+    .highlights .card .card-body{
+        padding: 30px
+    }
+       
+    
+    .quick-contact .card-member .inner{
+        flex-direction: column
+    }
+    
+    .quick-contact .card-member figure{
+        margin: 0 0 20px 0
+    }
+    
+    .quick-contact .card-member figure img{
+        width: 100%
+    }
+    
+    .quick-contact .card-member .text-block{
+        align-self: flex-start;
+        margin:0 30px 10px 30px
+    }
+    
+    .quick-contact .card-member .text-block p{
+        margin: 10px 0  0 0
+    }
+    
+    footer .all-product-nav nav{
+        margin: 40px 0 0 0
+    }
+
+    footer .footer-head .reach-us .info-col{
+        margin: 0 0 30px 0;
+    }
+    
+    footer .footer-head .info-col p{
+        margin-bottom: 0
+    }
+    
+    
+    footer .footer-head .info-col a{
+        font-size: 14px;
+        margin: 0 10px 0 0
+    }
+    
+    footer .social-icons{
+        margin: 20px 0 0 0
+    }
+    
+    
+    footer .footer-menu .fb-middle,
+    footer .copyright{
+        margin: 15px 0;
+    }
+    
+    footer .footer-end .footer-end-inner{
+        flex-direction: column
+    }
+
+    
+    footer .site-links,
+    footer .site-links a:first-child{
+        margin: 0;
+    }
+    
+    footer .footer-bottom{
+        margin: 20px 0 0 0
+    }
+    footer .social-icons ul li{
+        padding: 0;
+    }
+    footer .footer-bottom ul.abt-comp.list-group-horizontal{
+        flex-direction: column!important;
+        margin: 10px 0;
+    }
+    footer .footer-bottom ul.abt-comp li{
+        padding: 0;
+    }
+    footer .footer-end .footer-end-inner .design-link{
+        text-align: left;
+    }
+
+}
+
+
+
+/* SM :550px. */
+@media  (max-width: 550px) {
+    
+    header .header-top .header-top-left{
+        width: 100%;
+    }
+    
+    header .header-top .header-top-left .contact-numbers{
+        justify-content: center;
+    }
+    
+    header .header-top .header-top-left .contact-numbers p,
+    header .header-top .header-top-left .contact-numbers a{
+        font-size: 11px;
+        line-height: 12px;
+        color: #ffffff
+    }
+    
+    .section-head{
+        margin-bottom: 20px
+    }
+    
+    .main-banner .home-banner-bg{
+        padding-top: 330px;
+        padding-bottom: 0
+    }
+    
+    .main-banner .home-banner-bg::before{
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    
+    .main-banner .main-banner-text {
+        width: 100%
+    }
+    
+    .service .nav-tab nav{
+        margin: 0 auto 0 auto;
+        text-align: center
+    }
+    
+    .service .nav-tab nav a{
+        margin: 0 10px 
+    }
+    
+    .service .service-list.two-col{
+        grid-template-columns:1fr
+    }
+    
+    
+    
+    .testimonials .card{
+        padding: 30px
+    }
+    .testimonials .client-info{
+        display: block
+    }
+    
+    .testimonials .single-testimonial{
+        padding: 50px 0 0 0;
+        background-position: center top
+    }
+    
+    .testimonials .client-info .client-img img{
+        margin: auto
+    }
+    
+    .easysteps .step-number{
+        margin-bottom: 10px
+    }
+    .easysteps .step-content{
+        margin-bottom: 30px
+    }
+    .project-photos{
+        grid-template-columns:1fr
+    }
+    
+    .contact-info .card .card-body{
+        padding: 30px
+    }
+    
+
+
+}
